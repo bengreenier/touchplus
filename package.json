@@ -1,0 +1,42 @@
+{
+  "name": "touchplus",
+  "version": "0.1.0",
+  "description": "for touching multiple things",
+  "main": "touchplus.js",
+  "bin": {
+    "touchplus": "touchplus.js",
+    "tt": "touchplus.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "touch",
+    "multiple",
+    "things"
+  ],
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "fs-tools": "^0.2.11",
+    "hulksmash": "0.0.3",
+    "touch": "^1.0.0"
+  },
+  "devDependencies": {
+    "mem-fs": "^1.1.0",
+    "mocha": "^2.2.5",
+    "vinyl": "^0.5.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengreenier/touchplus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bengreenier/touchplus/issues"
+  },
+  "homepage": "https://github.com/bengreenier/touchplus#readme"
+}
