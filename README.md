@@ -1,5 +1,5 @@
 # touchplus
-for `touch`ing multiple things. to install, use `npm install touchplus`.
+for `touch`ing multiple things. to install, use `npm install -g touchplus`.
 
 # usage
 

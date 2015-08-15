@@ -1,12 +1,13 @@
 {
   "name": "touchplus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "for touching multiple things",
   "main": "touchplus.js",
   "bin": {
     "touchplus": "touchplus.js",
     "tt": "touchplus.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "test": "mocha"
   },
