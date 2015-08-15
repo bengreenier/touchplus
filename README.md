@@ -18,6 +18,18 @@ for `touch`ing multiple things. to install, use `npm install -g touchplus`.
     -c, --nocreate     bool. do not create any files
 ```
 
+# examples
+
+```
+# create three files `this`, `that`, `something-else` with no extension
+tt this that something-else
+```
+
+```
+# create three files in different subdirectories
+tt foo/bar this/that/new.txt foo/root.ini
+```
+
 # License
 
 MIT
