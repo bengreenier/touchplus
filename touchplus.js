@@ -13,7 +13,11 @@ program
 	.option('-r, --ref <file>', 'use this file\'s times instead of current time')
 	.option('-c, --nocreate', 'bool. do not create any files')
 	.parse(process.argv);
-	
-touchplus.process(program.args, {
-	args: program
-});
+
+if (program.args.length === 0) {
+	console.error("touchplus: file arguments missing\nTry `touchplus --help` for more information.");
+} else {
+	touchplus.process(program.args, {
+		args: program
+	});
+}
